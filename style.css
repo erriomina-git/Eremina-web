@@ -364,4 +364,46 @@ textarea {
     margin-left: 0%;
     width: 100%;
   }
+    @media screen and (max-width: 768px) {
+    .welcome{
+        width: 80%;
+        background: #2D1212;
+    }
+    .header{
+        font-size: small;
+        left: -13%;
+    }
+
+    .stars_sky{
+        width: 43%;
+    }
+
+    .star_text_left{
+        font-size: 110%;
+    }
+    .star_text_right{
+        font-size: 110%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .welcome{
+        width: 80%;
+        background: #2D1212;
+    }
+    .header{
+        font-size: small;
+        left: 9%;
+    }
+
+    .stars_sky{
+        width: 43%;
+    }
+
+    .star_text_left{
+        font-size: 140%;
+    }
+    .star_text_right{
+        font-size: 140%;
+    }
 }
